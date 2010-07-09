@@ -1,0 +1,12 @@
+<p><%= @contact.recipient_name.force_encoding("utf-8") %> [<%= @contact.recipient_email %>]</p>
+<br />
+
+<p>你好</p>
+
+<p><%= h @contact.message.force_encoding("utf-8") %></p>
+
+<p>請保持聯絡</p>
+<br />
+
+<p><%= @contact.sender_name.force_encoding("utf-8") %> [<%= @contact.sender_email %>]</p>
+

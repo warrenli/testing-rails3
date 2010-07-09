@@ -1,0 +1,6 @@
+.bundle
+.rspec
+db/*.sqlite3
+log/*.log
+tmp/**/*
+

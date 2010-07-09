@@ -1,0 +1,29 @@
+zh-HK:
+  errors:
+    title: "欄位資料並不正確"
+    head: "請先修正以下錯誤"
+  activerecord:
+    models:
+      contact:
+        one: "聯絡表單"
+        other: "聯絡表單"
+
+    # Translate model attribute names. Used in Model.human_attribute_name(attribute).
+      # For example,
+      #   user:
+      #     login: "Handle"
+      # will translate User attribute "login" as "Handle"
+    attributes:
+      contact:
+        sender_name:  "發件人姓名"
+        sender_email: "發件人電郵地址"
+        recipient_name: "收件人姓名"
+        recipient_email: "收件人電郵地址"
+        subject: "標題"
+        message: "內容"
+
+  contact_form:
+    send_button: "發出電子郵件"
+    success_msg: "電子郵件經已發出"
+    failed_msg: "未能發出電子郵件"
+

@@ -1,0 +1,31 @@
+<% title Contact.human_name %>
+
+<%= form_for @contact do |f| %>
+  <%= f.error_messages %>
+  <p>
+    <%= f.label :sender_name %><br />
+    <%= f.text_field :sender_name %>
+  </p>
+  <p>
+    <%= f.label :sender_email %><br />
+    <%= f.text_field :sender_email %>
+  </p>
+  <p>
+    <%= f.label :recipient_name %><br />
+    <%= f.text_field :recipient_name %>
+  </p>
+  <p>
+    <%= f.label :recipient_email %><br />
+    <%= f.text_field :recipient_email %>
+  </p>
+  <p>
+    <%= f.label :subject %><br />
+    <%= f.text_field :subject %>
+  </p>
+  <p>
+    <%= f.label :message %><br />
+    <%= f.text_area :message %>
+  </p>
+  <p><%= f.submit t('contact_form.send_button') %></p>
+<% end %>
+

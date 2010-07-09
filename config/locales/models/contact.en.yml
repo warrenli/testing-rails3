@@ -1,0 +1,29 @@
+en:
+  errors:
+    title: "Invalid Fields"
+    head: "Correct the following errors and try again."
+  activerecord:
+    models:
+      contact:
+        one: "Contact Form"
+        other: "Contact Form"
+
+    # Translate model attribute names. Used in Model.human_attribute_name(attribute).
+      # For example,
+      #   user:
+      #     login: "Handle"
+      # will translate User attribute "login" as "Handle"
+    attributes:
+      contact:
+        sender_name:  "Sender name"
+        sender_email: "Sender email"
+        recipient_name: "Recipient name"
+        recipient_email: "Recipient email"
+        subject: "Subject"
+        message: "Message"
+
+  contact_form:
+    send_button: "Send email"
+    success_msg: "Email sent"
+    failed_msg: "Not able to send email"
+
